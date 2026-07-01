@@ -4,6 +4,8 @@ import BannerSection from './components/BannerSection'
 import ProjectsSection from './components/ProjectsSection'
 import AboutSection from './components/AboutSection'
 import Footer from './components/Footer'
+import professionalPfp from './assets/professional_pfp.jpg'
+ 
 
 function HomePage() {
   return (
@@ -11,14 +13,14 @@ function HomePage() {
     <div className="pt-20">
 
       {/* ── Banner ── */}
-      <BannerSection photoSrc="src/assets/professional_pfp.jpg" />
+      <BannerSection photoSrc={professionalPfp} />
 
       {/* ── Projects ── */}
       {/* To switch to featured-only mode: <ProjectsSection featuredOnly /> */}
       <ProjectsSection />
 
       {/* ── About ── */}
-      <AboutSection photoSrc="src/assets/professional_pfp.jpg" />
+      <AboutSection photoSrc={professionalPfp} />
 
       {/* ── Footer ── */}
       <Footer />

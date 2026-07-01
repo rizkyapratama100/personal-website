@@ -2,6 +2,9 @@ import type { ReactNode } from 'react'
 import { SOCIAL_LINKS } from '../config/social'
 import Polaroid from './Polaroid'
 import Thumbtack from './Thumbtack'
+import eclairLogo from '../assets/eclair2.png'
+import hmsLogo from '../assets/hms2.png'
+import visaLogo from '../assets/visa-brandmark-blue.png'
 
 /**
  * CharacterSheet
@@ -22,9 +25,9 @@ interface Affiliation {
 
 // ── Edit your affiliations here ──────────────────────────────────────
 const AFFILIATIONS: Affiliation[] = [
-  { name: 'ECLAIR Robotics',    href: 'https://eclairrobotics.web.app/',               logoSrc: 'src/assets/eclair2.png' },
-  { name: 'Hello Maker Studio', href: 'https://exl.cns.utexas.edu/hello-maker-studio', logoSrc: 'src/assets/hms2.png' },
-  { name: 'Visa',               href: 'https://www.visa.com/en-us/business',            logoSrc: 'src/assets/visa-brandmark-blue.png' },
+  { name: 'ECLAIR Robotics',    href: 'https://eclairrobotics.web.app/',               logoSrc: eclairLogo },
+  { name: 'Hello Maker Studio', href: 'https://exl.cns.utexas.edu/hello-maker-studio', logoSrc: hmsLogo },
+  { name: 'Visa',               href: 'https://www.visa.com/en-us/business',            logoSrc: visaLogo },
 ]
 
 interface CharacterSheetProps {

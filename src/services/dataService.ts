@@ -2,7 +2,7 @@
  * dataService.ts
  *
  * Abstraction layer for project data.
- * Currently reads from src/data/projects.json (flat file).
+ * Currently reads from src/data/projects.ts (typed flat file with Vite image imports).
  *
  * ── Migrating to Cloudflare D1 / KV ──────────────────────────────────
  * When you're ready to move to a database, only this file needs to change.
@@ -15,10 +15,7 @@
  */
 
 import type { Project } from '../types/project'
-import projectsData from '../data/projects.json'
-
-// Cast the raw JSON to our typed array once at module load.
-const projects: Project[] = projectsData as Project[]
+import projects from '../data/projects'
 
 /**
  * Returns all projects.
