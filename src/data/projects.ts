@@ -18,7 +18,23 @@ import oneOhOne         from '../assets/OneOhOne.png'
 import sunlightTracker  from '../assets/sunlight_tracker.png'
 import arestetrify      from '../assets/ares_tetrify.png'
 import nestQuest        from '../assets/nest_quest.png'
+import cvhub            from '../assets/cvhub.png'
+
 const projects: Project[] = [
+  {
+    id: 'cvhub',
+    name: 'Computer Vision Hub',
+    startDate: '2026-07',
+    endDate: null,
+    description:
+      'Interactive platform to show completed and in-progress computer vision projects.',
+    tags: ['computer vision', 'aws lightsail', 'fast api'],
+    imageUrl: cvhub,
+    link: 'https://cv.rizkyp.com/',
+    active: true,
+    signature: true,
+    awardWinning: false,
+  },
   {
     id: 'takos',
     name: 'Tactile Appendage Kinematic Octopus System (TAKOS)',
