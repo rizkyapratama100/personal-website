@@ -31,7 +31,7 @@ const projects: Project[] = [
     tags: ['computer vision', 'aws lightsail', 'fast api'],
     imageUrl: cvhub,
     link: 'https://cv.rizkyp.com/',
-    active: true,
+    active: false,
     signature: true,
     awardWinning: false,
   },
