@@ -19,7 +19,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     id: 'linkedin',
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/rapratama1/',
+    href: 'https://www.linkedin.com/in/rizkyp1/',
     // LinkedIn "in" logo
     iconPath:
       'M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z M4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z',
